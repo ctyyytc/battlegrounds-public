@@ -1,8 +1,12 @@
 # Battlegrounds Public
 
+**简体中文** | [English](README.en.md)
+
 这是一个战棋玩法的非官方核心实现与改进项目。当前源码版本为 **14.5.0**，对应 14.0 大版本阶段收口。本仓库从审查后的文件白名单建立独立提交历史，面向代码阅读、规则研究与后续开发。
 
 **这是核心源码归档，不能直接运行完整游戏。** 所有视觉文件及导入元数据均未随仓库分发，包括默认占位图、自制界面和关键词特效纹理；源码仍可能引用这些省略的文件。本仓库不承诺下载即可玩，也不附引擎二进制或可执行发行包。
+
+完整可运行源码与 Windows 下载见 [battlegrounds-open](https://github.com/ctyyytc/battlegrounds-open) 及其 [v14.5.0 Release](https://github.com/ctyyytc/battlegrounds-open/releases/tag/v14.5.0)。
 
 ## 内容
 
@@ -41,3 +45,7 @@ python battlegrounds/tools/resource_pack.py check --pack my-pack/pack.json
 仓库不包含原版图片、原版卡牌文案、私人资源包或历史资料，不提供这些内容的下载地址或自动获取器。也不包含内部工作流资料、原有私有 Git 历史、玩家档、截图、原始测试状态或开发插件。
 
 维护者选择 **MIT**：允许按其条款修改、分发及商业使用，需保留版权与许可声明。“维护者免费分享”不额外限制下游商用；MIT 不授予任何第三方图片、文案、商标或另行取得素材的权利。
+
+## 联系方式
+
+维护者邮箱：[2571114956@qq.com](mailto:2571114956@qq.com)。

@@ -18,9 +18,44 @@
       "sha256": "d9a517c738c38a53f04baf65ed52b8488141b771ac2a1f5f02d32e4013f16c35"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1064,
+      "sha256": "082d7aeb8c5937a64a154f7fa07ce88e0726e6d5842c82ff26c1c7b8505afc6c"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 5096,
+      "sha256": "dbb2eb7ff05815372b9a14f536ffdb815cf3b9733a9216ec2f1ee5b649668533"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4093,
+      "sha256": "d3fdb1ff20dc2bd2103ce4bf443107234f9af27bb328c15191d586a97b2465e3"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1765,
+      "sha256": "956d1984421f73cde18b9dffb2841b59c3653427b7dfa025edebd55d43aca951"
+    },
+    {
       "path": "battlegrounds/.gitignore",
       "bytes": 115,
       "sha256": "72a47ee27a0bc05e2dceb1aa73e2b96d0757f382b75fab2aa6714f6524cc57a6"
+    },
+    {
+      "path": "battlegrounds/PUBLIC_FILES.json",
+      "bytes": 33056,
+      "sha256": "f8863a0c00f6bdb0754ede289f0711eff57331b3f3e94d3e7a4d0d1aa0604782"
+    },
+    {
+      "path": "battlegrounds/README.md",
+      "bytes": 1171,
+      "sha256": "bd0fa1679833ac42aad74cc0d1f94e47e0a255bdba500c94409af8051c902dac"
+    },
+    {
+      "path": "battlegrounds/RESOURCE_PACKS.md",
+      "bytes": 2590,
+      "sha256": "cc1f307666f8af9568cb13d6a3f80c71052be6620a03f7a850c73384f223b06a"
     },
     {
       "path": "battlegrounds/app/main.tscn",
@@ -623,16 +658,6 @@
       "sha256": "26babc46cbe2d0231ed72e5b0087ec80267df0a3368d16adbfdd2f378c29a346"
     },
     {
-      "path": "battlegrounds/PUBLIC_FILES.json",
-      "bytes": 33056,
-      "sha256": "f8863a0c00f6bdb0754ede289f0711eff57331b3f3e94d3e7a4d0d1aa0604782"
-    },
-    {
-      "path": "battlegrounds/README.md",
-      "bytes": 1171,
-      "sha256": "bd0fa1679833ac42aad74cc0d1f94e47e0a255bdba500c94409af8051c902dac"
-    },
-    {
       "path": "battlegrounds/resource_contract/fields.json",
       "bytes": 846639,
       "sha256": "c65774c5fee7eb9316637fe7bd6bf8cd6016cd2ba13c858aefbb43a6ecd456b2"
@@ -651,11 +676,6 @@
       "path": "battlegrounds/resource_contract/texts.json",
       "bytes": 201839,
       "sha256": "87a3ba1d2ad210f7f7c270e152cd5023b783ff3e318540057cfbca69cf362aeb"
-    },
-    {
-      "path": "battlegrounds/RESOURCE_PACKS.md",
-      "bytes": 2590,
-      "sha256": "cc1f307666f8af9568cb13d6a3f80c71052be6620a03f7a850c73384f223b06a"
     },
     {
       "path": "battlegrounds/tools/public_copy.py",
@@ -1016,21 +1036,6 @@
       "path": "battlegrounds/ui/trinket_reminder.gd.uid",
       "bytes": 19,
       "sha256": "7b79b81fafbee1f1532acfc2f1b85340f11ab21bb09e87615a70acce7f9e07c7"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 1064,
-      "sha256": "082d7aeb8c5937a64a154f7fa07ce88e0726e6d5842c82ff26c1c7b8505afc6c"
-    },
-    {
-      "path": "README.md",
-      "bytes": 3705,
-      "sha256": "3a17e38ea333078502ce51186e01c5de75254714a42aa5a2dfdadcd48743c682"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 1765,
-      "sha256": "956d1984421f73cde18b9dffb2841b59c3653427b7dfa025edebd55d43aca951"
     }
   ]
 }
