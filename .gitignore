@@ -1,0 +1,17 @@
+# The explicit publication manifest is the primary filter.
+**/.godot/
+**/local_resources/
+**/addons/
+**/builds/
+**/__pycache__/
+**/.godot_ai*
+.env
+.env.*
+*.pyc
+*.log
+*.pck
+*.exe
+*.dll
+*.zip
+*.7z
+/my-pack/

@@ -1,0 +1,1013 @@
+{
+  "schema_version": 1,
+  "status": "PUBLIC_CORE_SOURCE_ARCHIVE_NOT_RUNTIME_RELEASE",
+  "version": "14.5.0",
+  "self": "PUBLIC_FILES.json",
+  "source_manifest_sha256": "3d6f6e304465ffc176b6d692e4aae6c61864ba9dc6a5d41510a24a9ac39c55fc",
+  "local_plugin_settings_removed": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 115,
+      "sha256": "72a47ee27a0bc05e2dceb1aa73e2b96d0757f382b75fab2aa6714f6524cc57a6"
+    },
+    {
+      "path": "app/main.tscn",
+      "bytes": 227,
+      "sha256": "cb06da52401f80f77cc8b5131ee223125cc7e26a36e44eebb6201911b1ee3782"
+    },
+    {
+      "path": "content/packs/assets.json",
+      "bytes": 299218,
+      "sha256": "11f9c36a66664096b0e54c45a876a61bf2ad1e42a6022b899ffebde71aaf63f7"
+    },
+    {
+      "path": "content/packs/catalog.json",
+      "bytes": 880491,
+      "sha256": "fd773f33f0df67ffec6d64d8bb5ab75ca330e9a74856828aa8a3d5540aff02ce"
+    },
+    {
+      "path": "content/packs/hero_power_ui_bindings.json",
+      "bytes": 83370,
+      "sha256": "eccf9948bfe3b9efeda8fe5f9c2cd6a3a7e2901bf149919cbd0d8c694844f538"
+    },
+    {
+      "path": "content/packs/resource_schema.json",
+      "bytes": 1109704,
+      "sha256": "bfa3066bee744a56b7654dce9e8d0e4c5ffd374868f3f19c3de24d7da495eaeb"
+    },
+    {
+      "path": "content/packs/round132_sources.json",
+      "bytes": 16048,
+      "sha256": "9582e6030d137be9549ea6bc82823470e7abf6a06aae50124bf63e067b28d0df"
+    },
+    {
+      "path": "content/packs/round134_visuals.json",
+      "bytes": 2341,
+      "sha256": "aab5bc7f6bdbfe67de2f51781dc886d8fd0d565839d4bc8fa5a69299f85ef257"
+    },
+    {
+      "path": "content/packs/round135.json",
+      "bytes": 10768,
+      "sha256": "bd2addf77a5242d3425bc9b757c4b8a479d18a688388f888ab6807b0eabb2b16"
+    },
+    {
+      "path": "content/packs/trinket_offering_policy.json",
+      "bytes": 70445,
+      "sha256": "107361ecc3200abe0897968f937409e2e26aa9fd097a4f4d9e306063b2c33cb5"
+    },
+    {
+      "path": "content/packs/trinket_ui_bindings.json",
+      "bytes": 86775,
+      "sha256": "b45c9b7a3f3d8eb8cfe2ed3691e916dc53162a5374e3b7082b336c56404484ae"
+    },
+    {
+      "path": "content/packs/ui_assets.json",
+      "bytes": 79243,
+      "sha256": "38b8b7482a0c553d4f24dd27232e213d8e7c91d16032cee66bae3f14e5cf5858"
+    },
+    {
+      "path": "domain/resources/external_content.gd",
+      "bytes": 15773,
+      "sha256": "4b9c3bc127f6da493f733b410cfa7aca43cf7bdd4d6bf732edcc65e22fab9745"
+    },
+    {
+      "path": "domain/resources/external_content.gd.uid",
+      "bytes": 20,
+      "sha256": "69a0efaf2361d255a72d368015cd823076312115fd1b4ab1998c2684ba11b8ef"
+    },
+    {
+      "path": "domain/resources/resource_pack_store.gd",
+      "bytes": 7066,
+      "sha256": "d8541e95b95d90bf39d62c7a02d965d2094822e64ed04663867e36d1941be52c"
+    },
+    {
+      "path": "domain/resources/resource_pack_store.gd.uid",
+      "bytes": 19,
+      "sha256": "87bff0e7460cef22970860905f24948357e571b42a8f375398654bbaed898463"
+    },
+    {
+      "path": "domain/rules/acquisition_source.gd",
+      "bytes": 1098,
+      "sha256": "34176e69bcd62d32f2fdc6e755f4af0ea9379a926d79629a6c27cef2969b2ac4"
+    },
+    {
+      "path": "domain/rules/acquisition_source.gd.uid",
+      "bytes": 19,
+      "sha256": "c4e8f5b1640dc765f2d1e01d0b1420543f0d9c7f4687ccdfefe527a271e6a8b7"
+    },
+    {
+      "path": "domain/rules/action_availability.gd",
+      "bytes": 6643,
+      "sha256": "ee9797227d414b5187024a474407681351d10d29acbef8ed9dd453039ac7f25c"
+    },
+    {
+      "path": "domain/rules/action_availability.gd.uid",
+      "bytes": 20,
+      "sha256": "6636f54c04000470bbacccebf2a224f463255d2a0d07673f98fb5434e238745c"
+    },
+    {
+      "path": "domain/rules/action_continuation.gd",
+      "bytes": 6375,
+      "sha256": "16b967f06fd13fb916df2c4d846de8de38843398bec72501bd68dcfb8f221fe6"
+    },
+    {
+      "path": "domain/rules/action_continuation.gd.uid",
+      "bytes": 20,
+      "sha256": "d97b0bedc7eab538a036c222e4ae82bad325b979054da511ac4beec2b47f4062"
+    },
+    {
+      "path": "domain/rules/beast_rules.gd",
+      "bytes": 20537,
+      "sha256": "1253462c717f7e512d6d019213c91d5a0c8912c8e7b6ba14de52775b8f6a6730"
+    },
+    {
+      "path": "domain/rules/beast_rules.gd.uid",
+      "bytes": 20,
+      "sha256": "6cb2f18c36fb2acc65c6f08b1238856f744304a215b252a5691c88453892ea33"
+    },
+    {
+      "path": "domain/rules/capability_registry.gd",
+      "bytes": 7896,
+      "sha256": "a93c220b967e3a6afc7a0884ab886e9f9e21d723939a9018a0cea39576058253"
+    },
+    {
+      "path": "domain/rules/capability_registry.gd.uid",
+      "bytes": 20,
+      "sha256": "28935eea4e910fd75b7079ff965851babb142396cc257ec57c67c67e0f305f1a"
+    },
+    {
+      "path": "domain/rules/card_lock.gd",
+      "bytes": 1705,
+      "sha256": "59d56516bad893d4dafe63a95898c425e57ed43b0cc19a1ce4b9a2a79149fe53"
+    },
+    {
+      "path": "domain/rules/card_lock.gd.uid",
+      "bytes": 20,
+      "sha256": "e1f16aa07633e40ea7c2d7d612e6a9aaf5bbfd2f9e5f4f440bb124ee80af746b"
+    },
+    {
+      "path": "domain/rules/choice_automation.gd",
+      "bytes": 5446,
+      "sha256": "f068de2f33009e3b7dc3c81337692c15ed57590a904abd076f96234b673ae387"
+    },
+    {
+      "path": "domain/rules/choice_automation.gd.uid",
+      "bytes": 19,
+      "sha256": "02b2e9545e4e3a143c641b9a7ccf1545708576d43d42e5283faeef04a5fc9ea9"
+    },
+    {
+      "path": "domain/rules/choice_service.gd",
+      "bytes": 2966,
+      "sha256": "71eb5f26a9f67dd9f402b24ce5eb5d70b58546b415ca2abc607430864286c568"
+    },
+    {
+      "path": "domain/rules/choice_service.gd.uid",
+      "bytes": 20,
+      "sha256": "ec4d63c2431af066277b6e3a5b81ace57d260876ed1fa530b43c43b90d6f6bbb"
+    },
+    {
+      "path": "domain/rules/combat_opening.gd",
+      "bytes": 6748,
+      "sha256": "dcd487d9538f93268b855b2a80ca1ef77f9cefd6d134d8e3a2c4664a04976d73"
+    },
+    {
+      "path": "domain/rules/combat_opening.gd.uid",
+      "bytes": 20,
+      "sha256": "49c1772785c3cceca4bf9d49c729c8c137e5a1c20ebde30dd89ad8777b4358ab"
+    },
+    {
+      "path": "domain/rules/combat_service.gd",
+      "bytes": 23836,
+      "sha256": "569bf2a8be65e0d90b1c2e70fedf597c75480055e58b5e4bd50a999f749a0e65"
+    },
+    {
+      "path": "domain/rules/combat_service.gd.uid",
+      "bytes": 20,
+      "sha256": "62fb4ab31fd6b93bc61edb94ff9d1491f2c52f6f0fe46f888f29913452c73881"
+    },
+    {
+      "path": "domain/rules/content_registry.gd",
+      "bytes": 5223,
+      "sha256": "7d0018f57ac0f009b60f813144ed2e93d7487d214f9d1f6cc18f0ec2fb5fb28d"
+    },
+    {
+      "path": "domain/rules/content_registry.gd.uid",
+      "bytes": 20,
+      "sha256": "6554dde0f598d96f34daf02fbb37474f5042e1e93865b763b77ed549f4b5a572"
+    },
+    {
+      "path": "domain/rules/core_protection.gd",
+      "bytes": 3963,
+      "sha256": "9ac4221c5b2ae559400421320ec8ab05ec509d29fe6991028879b3124666b458"
+    },
+    {
+      "path": "domain/rules/core_protection.gd.uid",
+      "bytes": 20,
+      "sha256": "0b90c086cc0d516badf940e0f5db729db7c4f18b3980900da58bc44e5efcb807"
+    },
+    {
+      "path": "domain/rules/dark_gift_rules.gd",
+      "bytes": 7680,
+      "sha256": "6e43ca69f9fea43b16869bc6602d3a49957d6c168d7cefe601ef22f35c6aac46"
+    },
+    {
+      "path": "domain/rules/dark_gift_rules.gd.uid",
+      "bytes": 20,
+      "sha256": "c0760dba0a8c3ba9deb87056c6297f61896298a5c10fa5c716472bee5b2f6db5"
+    },
+    {
+      "path": "domain/rules/demon_rules.gd",
+      "bytes": 25370,
+      "sha256": "2e017f0993834ef8b06b9be2d8f34b339ccf9c5410ac165170c7a76e99dabaf1"
+    },
+    {
+      "path": "domain/rules/demon_rules.gd.uid",
+      "bytes": 20,
+      "sha256": "3b822a1e0856ab1e605b4b3dd386d7632bd3ff265eb160aeb00f72f468feec32"
+    },
+    {
+      "path": "domain/rules/deterministic_rng.gd",
+      "bytes": 583,
+      "sha256": "ecbaea16e3cc89924e476fc41a76afc24125f3c35eca0c6b0ffdab9f5051efae"
+    },
+    {
+      "path": "domain/rules/deterministic_rng.gd.uid",
+      "bytes": 20,
+      "sha256": "2efb77dd39383b7f13e7a6a96b7bd6b1bce0ed4d750c2bd57ceb338207b25c9f"
+    },
+    {
+      "path": "domain/rules/effect_dispatcher.gd",
+      "bytes": 5412,
+      "sha256": "099fadd782f9326d0193618716f92ca54902a651cbdf93acf24f0df9468325e4"
+    },
+    {
+      "path": "domain/rules/effect_dispatcher.gd.uid",
+      "bytes": 20,
+      "sha256": "5d9abc66e104ad864e4649d2b84265789086fe4ef4c24695d77eb7046b0a205d"
+    },
+    {
+      "path": "domain/rules/elemental_gain.gd",
+      "bytes": 1126,
+      "sha256": "76bc6c2f7465ed1ceb422a173ba8823ca3725d4158a04cf08327b5e752cf5e55"
+    },
+    {
+      "path": "domain/rules/elemental_gain.gd.uid",
+      "bytes": 20,
+      "sha256": "22f907f1911ff18e92abb72b75d00230f1074cdb15dad2b4e0c9ae1652f6b1ad"
+    },
+    {
+      "path": "domain/rules/elemental_rules.gd",
+      "bytes": 8614,
+      "sha256": "75a47a42c0d5b5dd4a13dd84fb3e5735e9cb8a4eacf4a2355f84fd06b361ea8c"
+    },
+    {
+      "path": "domain/rules/elemental_rules.gd.uid",
+      "bytes": 20,
+      "sha256": "2a633a362e27a4595754116e747662c3a5e7756ac8476124164a581ddc1b286f"
+    },
+    {
+      "path": "domain/rules/elemental_trinkets.gd",
+      "bytes": 3346,
+      "sha256": "87a56f01d28a3144a4e32d0494fc1d22890ba86393e98d923d0b0ba8b671013a"
+    },
+    {
+      "path": "domain/rules/elemental_trinkets.gd.uid",
+      "bytes": 20,
+      "sha256": "61291542c3eb68266e2d350d1cdf4a034b05b42b156089e3083b6e9c21755ae4"
+    },
+    {
+      "path": "domain/rules/fast_action_policy.gd",
+      "bytes": 2387,
+      "sha256": "283672b9367d7dcfa1bcbc694b996e817e7de1e316fdb8d0996d4ae24bf170bf"
+    },
+    {
+      "path": "domain/rules/fast_action_policy.gd.uid",
+      "bytes": 20,
+      "sha256": "6f24a6b4f8168210f6476b1d76d405a73e60422784825d71dca59c3cab188c88"
+    },
+    {
+      "path": "domain/rules/match_engine.gd",
+      "bytes": 130609,
+      "sha256": "58b8971232e0fd9f913e67148bfbb3ca2b8131d224add29daf82987436165d1e"
+    },
+    {
+      "path": "domain/rules/match_engine.gd.uid",
+      "bytes": 20,
+      "sha256": "f87cf071a59a772fa5799068a4b620fe49b38f6e3bbe53c87194d92f3aa6c345"
+    },
+    {
+      "path": "domain/rules/murloc_rules.gd",
+      "bytes": 25381,
+      "sha256": "9a2dc3e84e0dbab3881a2800728b29fe7c669427c586905696c4002740b273cb"
+    },
+    {
+      "path": "domain/rules/murloc_rules.gd.uid",
+      "bytes": 19,
+      "sha256": "7cc67a8db3d19471701165347a3ef97f384d5be07d2acf319ea52b21c931172b"
+    },
+    {
+      "path": "domain/rules/naga_rules.gd",
+      "bytes": 21649,
+      "sha256": "36492b52f310a4c7bb9766b9a4fbeda06468227ab8fdcf6d1fde3a2bec892919"
+    },
+    {
+      "path": "domain/rules/naga_rules.gd.uid",
+      "bytes": 19,
+      "sha256": "1e707b3b6b4961b17a387bef3c52c24fc625212f8e922e8bf4e735421d4877e3"
+    },
+    {
+      "path": "domain/rules/pirate_rules.gd",
+      "bytes": 20154,
+      "sha256": "ef3ff79e1298af85418e2fdbb42a3a8a11396dd9618c2d80ad51c805b53e81ee"
+    },
+    {
+      "path": "domain/rules/pirate_rules.gd.uid",
+      "bytes": 20,
+      "sha256": "de6c4250d2bc1bf80d2500d0cf4530f73f27dbbb8afa695b4d27293e1fd67ee3"
+    },
+    {
+      "path": "domain/rules/power_slots.gd",
+      "bytes": 9055,
+      "sha256": "0e454c8ba236989072022f82c823858c7a30a642be1b6b91a95334ddd913f7fd"
+    },
+    {
+      "path": "domain/rules/power_slots.gd.uid",
+      "bytes": 20,
+      "sha256": "4abad6c17ff36d9ecca524f4088634c8abf849bed5e9c172a7b732ce821053d3"
+    },
+    {
+      "path": "domain/rules/quilboar_rules.gd",
+      "bytes": 26248,
+      "sha256": "2d59a8e185f912d9f8f053013c758de36888204941b328e4e7b1a3b8cbf14a6b"
+    },
+    {
+      "path": "domain/rules/quilboar_rules.gd.uid",
+      "bytes": 20,
+      "sha256": "0077fe1b17e4120f6b5e44b9a327a9fd8b0e7c44372e288a52251b75aee0962f"
+    },
+    {
+      "path": "domain/rules/recruit_payment.gd",
+      "bytes": 4323,
+      "sha256": "b95c02b97d1c49f321d13262c908f295d0ba28e795d10c25164476038388a36f"
+    },
+    {
+      "path": "domain/rules/recruit_payment.gd.uid",
+      "bytes": 20,
+      "sha256": "c78c7a1df58de772671969b9afb73db229175d2a1b7a757ee3534c23d1dea2f7"
+    },
+    {
+      "path": "domain/rules/round132_combat.gd",
+      "bytes": 6501,
+      "sha256": "5f4b94b6e60c04daf7cf318be4230fbd969bc525399f0561811dd40af615f833"
+    },
+    {
+      "path": "domain/rules/round132_combat.gd.uid",
+      "bytes": 20,
+      "sha256": "97c107aefd8ab29533b9271d2dfb92616412e816c407d77fa0b57cc2167462dd"
+    },
+    {
+      "path": "domain/rules/round132_powers.gd",
+      "bytes": 51135,
+      "sha256": "a1773851480fb1de1e470684fe07aa253b59d7e2175782eac80373bb0c03fc94"
+    },
+    {
+      "path": "domain/rules/round132_powers.gd.uid",
+      "bytes": 20,
+      "sha256": "442e16b90c686cae60c6db5377a3356b0b59bbb42955c1194df9a7e809fda5cc"
+    },
+    {
+      "path": "domain/rules/round132_shop.gd",
+      "bytes": 3954,
+      "sha256": "6de8af8437f42f7bc3cf5e0a301d0f1a37ea7febbd3783e8d2c52adf0e6c4996"
+    },
+    {
+      "path": "domain/rules/round132_shop.gd.uid",
+      "bytes": 20,
+      "sha256": "0ded60c253a40d041fc34d5f2d6f52821c25b1c792fb2a514f7137fac0cce710"
+    },
+    {
+      "path": "domain/rules/round133_rules.gd",
+      "bytes": 12248,
+      "sha256": "1da42533d9a17c871fc939d394ea91b5792210e6a47b03e96e71189376fb353b"
+    },
+    {
+      "path": "domain/rules/round133_rules.gd.uid",
+      "bytes": 20,
+      "sha256": "49477836bb8eca8728e4ebc874d1d7c604dea21ba0bc3aee6a6b7e73f02f61f0"
+    },
+    {
+      "path": "domain/rules/round133_secrets.gd",
+      "bytes": 3233,
+      "sha256": "6566622fb16bc9f0f298a5c74a3d4bbac706735a63cdeae8ec5c31e3d4b2b40b"
+    },
+    {
+      "path": "domain/rules/round133_secrets.gd.uid",
+      "bytes": 19,
+      "sha256": "f2f44361523a28e92f8b96ab4665fd88a81f839fbabe72f442be425eac759219"
+    },
+    {
+      "path": "domain/rules/round134_prizes.gd",
+      "bytes": 22246,
+      "sha256": "b646e59c451f078c6388cd510d1f6a26da46258c4bd21befe054eca220ef16c8"
+    },
+    {
+      "path": "domain/rules/round134_prizes.gd.uid",
+      "bytes": 20,
+      "sha256": "5eb2e4035dafa058e1cc05d0cd8fa1b80c8cfce67fd98ea4aa3973f3adface28"
+    },
+    {
+      "path": "domain/rules/round135_quests.gd",
+      "bytes": 24088,
+      "sha256": "bd768cb0ebb40ac87728da3dd23e435fe0b5067519033c45720e9630500a8bf5"
+    },
+    {
+      "path": "domain/rules/round135_quests.gd.uid",
+      "bytes": 20,
+      "sha256": "8076f29c64d1468039d55ffd2be0f65ddccf4ad268bce14f5f67112466d45483"
+    },
+    {
+      "path": "domain/rules/round136_rewards.gd",
+      "bytes": 14765,
+      "sha256": "d5bcc9533c9cdf07c6948d06c1a8a030137197abcee645060d8f8f6de3f43066"
+    },
+    {
+      "path": "domain/rules/round136_rewards.gd.uid",
+      "bytes": 20,
+      "sha256": "61abaf8f4a45d3854a458df96aae3b99f501e6e5ec8f615fd944181689b06d77"
+    },
+    {
+      "path": "domain/rules/round136_slots.gd",
+      "bytes": 16749,
+      "sha256": "1333c8151de45eda67d6c1bc9fbe10507c10a2bf5d8a8998b8aa6d5ce5a48856"
+    },
+    {
+      "path": "domain/rules/round136_slots.gd.uid",
+      "bytes": 20,
+      "sha256": "32f169f92b481e7add0241c960a8d5602e96916f0bee5371646fa752b65f8ebd"
+    },
+    {
+      "path": "domain/rules/round13_minions.gd",
+      "bytes": 5870,
+      "sha256": "1eff99bee4c4636b015426df8d5014a1c62aa9e78ed7be9c8301282c1cd271fe"
+    },
+    {
+      "path": "domain/rules/round13_minions.gd.uid",
+      "bytes": 20,
+      "sha256": "2d792e7d760a98016afa63424e0c80813378d814da5b63e72bfc97786d22407a"
+    },
+    {
+      "path": "domain/rules/round13_trinkets.gd",
+      "bytes": 23973,
+      "sha256": "0ee2730bf1ca29ef74ae59dada0bf21a102b5fa3ba1a40723919a189ab9c6624"
+    },
+    {
+      "path": "domain/rules/round13_trinkets.gd.uid",
+      "bytes": 19,
+      "sha256": "1d5756c44f4617e2d189c9b017002a8ea221aa3ee2fb4c7a4795a989fece633d"
+    },
+    {
+      "path": "domain/rules/round143_pairing.gd",
+      "bytes": 6923,
+      "sha256": "2db83fc9f63fb4ab0674e3dba87b20f148f57f3c7bee710f4d18a5369afbf41d"
+    },
+    {
+      "path": "domain/rules/round143_pairing.gd.uid",
+      "bytes": 20,
+      "sha256": "353bbda89c8ffecc3c95dc996f96e1acc6e0a8bb76f18c28a3c570ea6d122833"
+    },
+    {
+      "path": "domain/rules/round7_heroes.gd",
+      "bytes": 5018,
+      "sha256": "1c9f7a5bdb8affee15fa0b0aa228d2571d7b6adcac7535590591222a6d11b947"
+    },
+    {
+      "path": "domain/rules/round7_heroes.gd.uid",
+      "bytes": 20,
+      "sha256": "f41151fe65c48c19029ef19eeb830aa68d8d34c39e67f4f951676fde65bde8f0"
+    },
+    {
+      "path": "domain/rules/save_journal.gd",
+      "bytes": 4039,
+      "sha256": "4a4d9e3217b6d58a0c6033779779a3431a664937aacd7e7a106d16adfa616189"
+    },
+    {
+      "path": "domain/rules/save_journal.gd.uid",
+      "bytes": 20,
+      "sha256": "d8ac48a4613a2b3b60afdb816d9a74b72cdb1e332042f24f04a6484287852093"
+    },
+    {
+      "path": "domain/rules/selection_service.gd",
+      "bytes": 6959,
+      "sha256": "f7a24253b9531578bcba2717114a91316d7f5b7c95ef7977842dff0013be2dc6"
+    },
+    {
+      "path": "domain/rules/selection_service.gd.uid",
+      "bytes": 19,
+      "sha256": "900cec8be2e9af85e208f402f0521ae1c206ed78f8330195f89f48761b19dffd"
+    },
+    {
+      "path": "domain/rules/shop_bonus.gd",
+      "bytes": 1506,
+      "sha256": "142cd9f08cd705fbd0f0a6cffb003946d69355d1ff4238e45e73c95e6bfcd1d7"
+    },
+    {
+      "path": "domain/rules/shop_bonus.gd.uid",
+      "bytes": 20,
+      "sha256": "700f3b11cb4ec0bf78200e4e8e3f881b9c1739e861097c10453d408096352977"
+    },
+    {
+      "path": "domain/rules/special_rules.gd",
+      "bytes": 4135,
+      "sha256": "96f14c9b99a786562721fa768bc0edfba76098b9c164062317eca055d366f662"
+    },
+    {
+      "path": "domain/rules/special_rules.gd.uid",
+      "bytes": 20,
+      "sha256": "1508e1d45dce57241fd0ca3cdf9f6ab3d680b9685998415c7ec6f3c685d62d7d"
+    },
+    {
+      "path": "domain/rules/spell_attributes.gd",
+      "bytes": 1865,
+      "sha256": "b0fe8aa0f43ff09c2260704d29c301feeefbc9b413538657a0b01b78b4c8a1ce"
+    },
+    {
+      "path": "domain/rules/spell_attributes.gd.uid",
+      "bytes": 20,
+      "sha256": "c8758ad0d008b970dbb9ce7f5c0b34cc01c1d610130759e29d72f5f6f98fbc1b"
+    },
+    {
+      "path": "domain/rules/spell_history.gd",
+      "bytes": 3375,
+      "sha256": "bcf8aacfe91e5646733ee27e579603b691296af3f35b5810d0ccab5d7dbe4b36"
+    },
+    {
+      "path": "domain/rules/spell_history.gd.uid",
+      "bytes": 20,
+      "sha256": "fd8123fdfbae150b4577409a07c21d17ceb6a44eb103a4e502c86aa5f22712af"
+    },
+    {
+      "path": "domain/rules/stat_reset.gd",
+      "bytes": 802,
+      "sha256": "45eae24967885520351d7a8b406d534708711630ef194a186edc99d037e48058"
+    },
+    {
+      "path": "domain/rules/stat_reset.gd.uid",
+      "bytes": 20,
+      "sha256": "00e5322f29b24281e02ede8dbc17c2ad42bab02af7302a7fc0080d4efdfc8377"
+    },
+    {
+      "path": "domain/rules/trigger_rules.gd",
+      "bytes": 2845,
+      "sha256": "7199eff1ceeb4d0c512cb16294ac7126b5b14fb2b05cfc1a525f81704770ca6d"
+    },
+    {
+      "path": "domain/rules/trigger_rules.gd.uid",
+      "bytes": 20,
+      "sha256": "55dad0b404d9abd8e4217b0e1ab685d8feaaadd9a21b8cc1d48bb6a1f10f56f5"
+    },
+    {
+      "path": "domain/rules/trinket_offering.gd",
+      "bytes": 8350,
+      "sha256": "f5d59f234c52239bf386b6be0f84bfd04ee3a150a8601471192afbd7f25cce32"
+    },
+    {
+      "path": "domain/rules/trinket_offering.gd.uid",
+      "bytes": 19,
+      "sha256": "67d34e7abf57d9939792bc40649924d9632d8b8ce0794e148f844431292e9a4f"
+    },
+    {
+      "path": "domain/rules/undead_rules.gd",
+      "bytes": 14759,
+      "sha256": "530e22e8b7cba3f1fda3437c9930aeec426d9c8192118d98b6ef524a0d9dc9bc"
+    },
+    {
+      "path": "domain/rules/undead_rules.gd.uid",
+      "bytes": 20,
+      "sha256": "5b3cb5985f63dbd7827600e2daca7a61708d6219ff2d666137d0ffbc06d35cf6"
+    },
+    {
+      "path": "domain/rules/yogg_automatic.gd",
+      "bytes": 6225,
+      "sha256": "5e7d44199e6572b7259041083fd8f01fc3dfd8b8a08fb81e604e9182b030e31f"
+    },
+    {
+      "path": "domain/rules/yogg_automatic.gd.uid",
+      "bytes": 19,
+      "sha256": "42bfab65c8476cbbd947da6a34c86a98792d1e6fb984c6bb8ac138c69bf32025"
+    },
+    {
+      "path": "examples/resource_pack/pack.json",
+      "bytes": 135,
+      "sha256": "8e4680488feea3e0dd4ea166966a09c08d93811696b820d80186c3bdc7624d9c"
+    },
+    {
+      "path": "export_presets.cfg",
+      "bytes": 874,
+      "sha256": "1b99ccd6fe25fa4ce406ed7313c5d75549dd2f43d12bac82497c5086257d10a6"
+    },
+    {
+      "path": "project.godot",
+      "bytes": 956,
+      "sha256": "26babc46cbe2d0231ed72e5b0087ec80267df0a3368d16adbfdd2f378c29a346"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1171,
+      "sha256": "bd0fa1679833ac42aad74cc0d1f94e47e0a255bdba500c94409af8051c902dac"
+    },
+    {
+      "path": "resource_contract/fields.json",
+      "bytes": 846639,
+      "sha256": "c65774c5fee7eb9316637fe7bd6bf8cd6016cd2ba13c858aefbb43a6ecd456b2"
+    },
+    {
+      "path": "resource_contract/images.json",
+      "bytes": 488273,
+      "sha256": "d356238eed808894b64da39404f742af5062e30537fa7fade405d6641e0cef4a"
+    },
+    {
+      "path": "resource_contract/phrases.json",
+      "bytes": 76633,
+      "sha256": "692001f3914a6d58742857e9e87aaf1dc5fed976493cc48b32692c57104933af"
+    },
+    {
+      "path": "resource_contract/texts.json",
+      "bytes": 201839,
+      "sha256": "87a3ba1d2ad210f7f7c270e152cd5023b783ff3e318540057cfbca69cf362aeb"
+    },
+    {
+      "path": "RESOURCE_PACKS.md",
+      "bytes": 2590,
+      "sha256": "cc1f307666f8af9568cb13d6a3f80c71052be6620a03f7a850c73384f223b06a"
+    },
+    {
+      "path": "tools/public_copy.py",
+      "bytes": 1978,
+      "sha256": "70f7449f154538002b51824ebd0c6df27ee0c6c05fe30001381342ec4a66b240"
+    },
+    {
+      "path": "tools/resource_pack.py",
+      "bytes": 5923,
+      "sha256": "b933b97c7ea854c159f771bb63114250329559ca25a6014f309a68000b201323"
+    },
+    {
+      "path": "ui/beast_presentation.gd",
+      "bytes": 4727,
+      "sha256": "7b3eb3084bd8d82955f41a01366f32add7c78d36909fcce8df65e6ecfb8c0451"
+    },
+    {
+      "path": "ui/beast_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "f5d18f5911ac0727c61ae1a4c9dde82bb9fe05256c3db75734e5816e3d204bc3"
+    },
+    {
+      "path": "ui/card_presentation.gd",
+      "bytes": 4301,
+      "sha256": "bf61fcd5393fc1c57da1bf3b6afc4757f5da397d9da3a232124d193969ad576e"
+    },
+    {
+      "path": "ui/card_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "36ee695aa63744c251d6a9b7551ce322e4206aad60f6d7b53a81f3c17fefbb63"
+    },
+    {
+      "path": "ui/consumption_feedback.gd",
+      "bytes": 4746,
+      "sha256": "9c77341e1e26e3d2dbd52ef4afa9ecc8e63af162db8290aab00499a2e4fb27ce"
+    },
+    {
+      "path": "ui/consumption_feedback.gd.uid",
+      "bytes": 20,
+      "sha256": "80a108c26359aac3080f2f50c7fa04729ad30882b079781e72081148262a80f3"
+    },
+    {
+      "path": "ui/demon_presentation.gd",
+      "bytes": 3487,
+      "sha256": "e203c232ab032efbf9f857389e0ebe0512843bb14e8c34a573a2b0816bd1a015"
+    },
+    {
+      "path": "ui/demon_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "7988f1b41626ddcc8a3752652229150bce7999dc4f0e81f29d51b87f74a6ba08"
+    },
+    {
+      "path": "ui/divine_shield.gdshader",
+      "bytes": 453,
+      "sha256": "2764645ec7551548df47ed1d7a31a45ad235b3e564b0fbf3a457a568eb22b9e7"
+    },
+    {
+      "path": "ui/divine_shield.gdshader.uid",
+      "bytes": 20,
+      "sha256": "d6f59966f6b8815e4445f9b3b1d3c2e1f99466b2b37c140b2bd903d859c8bbdc"
+    },
+    {
+      "path": "ui/dynamic_state_presentation.gd",
+      "bytes": 7998,
+      "sha256": "b2b07fa67392b5aab8827340e12aec1f080fd7841e679183007635e85a1b6fcf"
+    },
+    {
+      "path": "ui/dynamic_state_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "1dd75ac20b7bf9c37e9775f65af130b895a553a6728f636b139e7131faa22fbf"
+    },
+    {
+      "path": "ui/effect_progress_presentation.gd",
+      "bytes": 647,
+      "sha256": "49e6250b548de6f5951d34dc5e1f5df401b387f6ba34e0c6846d5a9873d00000"
+    },
+    {
+      "path": "ui/effect_progress_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "8581cfb65e7d09b5f32634600ce4e6651214fd84f175665c3eb7e0f12390657b"
+    },
+    {
+      "path": "ui/elemental_presentation.gd",
+      "bytes": 8333,
+      "sha256": "b1dd984a981fe93b0d927b98301863c4d0913a401afdc1ca6b459e17af9c2587"
+    },
+    {
+      "path": "ui/elemental_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "5487c06c88f12bce50a2ec42a12b0f10f1ce8c639357959e755c227abbd6e1ea"
+    },
+    {
+      "path": "ui/golden_ability_text.gd",
+      "bytes": 3038,
+      "sha256": "c91f875d0019747c821fc6f815dee180a5d8de68b560c584dd78d7911808fd61"
+    },
+    {
+      "path": "ui/golden_ability_text.gd.uid",
+      "bytes": 20,
+      "sha256": "e65f6bdb8b5f47ffb64a30128b24394517ba1602b06aa1a091d2e1e60f3c8229"
+    },
+    {
+      "path": "ui/keyword_fx.gd",
+      "bytes": 11374,
+      "sha256": "e9913eb723ebbf8cb81e6c8691c96511b012c1d9738d86477fbddbf1c607071b"
+    },
+    {
+      "path": "ui/keyword_fx.gd.uid",
+      "bytes": 20,
+      "sha256": "486d4b3d392f740dcf07c2898f262f100d0013a2a18d08f92b9746909dce1555"
+    },
+    {
+      "path": "ui/keyword_fx_state.gd",
+      "bytes": 9118,
+      "sha256": "157bae67d4bc4efd9a0f7c33259044720e4e8e8c081d17098442bc4eea1c2f99"
+    },
+    {
+      "path": "ui/keyword_fx_state.gd.uid",
+      "bytes": 20,
+      "sha256": "7ab0351367c7e5e728cd3bfe2fa61d704ca26f89df5904fd1bb92def789b02f1"
+    },
+    {
+      "path": "ui/keyword_fx_timeline.gd",
+      "bytes": 6114,
+      "sha256": "e69a5c9708da77ca3c6f2c0bc64b2f83942743e6d03231c8a45b1a119ecc02fa"
+    },
+    {
+      "path": "ui/keyword_fx_timeline.gd.uid",
+      "bytes": 20,
+      "sha256": "eb77c39b207f834d78162eccf5eb0b6868721c9f3d34e119931b042c80b9a364"
+    },
+    {
+      "path": "ui/life_payment_presentation.gd",
+      "bytes": 4247,
+      "sha256": "4c4ecae9ab2602a9b6275f6596d60b93a1e0488975ce877e93bad309954b6fb3"
+    },
+    {
+      "path": "ui/life_payment_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "dcb20dddaa0aae9125927faae85746360328a3fe14731a58184b83754cad88ab"
+    },
+    {
+      "path": "ui/match_preparation.gd",
+      "bytes": 1052,
+      "sha256": "ad9fc25e0fc0bb7d48b120ca674d1ccb5ec8c8ca8b8105cd74c6f2a3c5efc1fe"
+    },
+    {
+      "path": "ui/match_preparation.gd.uid",
+      "bytes": 20,
+      "sha256": "2cf3b44d53a546fe0a480837677c1b2fc5df502563e2c4d161084a84576f785e"
+    },
+    {
+      "path": "ui/menu_settings.gd",
+      "bytes": 17568,
+      "sha256": "f35dc27e022aed951450ce3e0ce42b5147e0f98ae1d8a355fb65246a57765841"
+    },
+    {
+      "path": "ui/menu_settings.gd.uid",
+      "bytes": 19,
+      "sha256": "489ab12a7eade1c0cdbc27f7c2f50385c7f74bc63b0825aedf8f425812bdbb3a"
+    },
+    {
+      "path": "ui/murloc_presentation.gd",
+      "bytes": 3526,
+      "sha256": "91486c7e93c6b3ba320c69790368bf8e223583a27875eea4d72cf4b6a75ab689"
+    },
+    {
+      "path": "ui/murloc_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "fb9413ae368b7b49ff15f48276bfbd94260f9798358ef5ac700da146fb6f20ec"
+    },
+    {
+      "path": "ui/naga_presentation.gd",
+      "bytes": 5650,
+      "sha256": "17f4ca8a6d05a85e7430e68c234cee4e6868555c9cb40a4cd7c7e4a9c662e339"
+    },
+    {
+      "path": "ui/naga_presentation.gd.uid",
+      "bytes": 18,
+      "sha256": "63ce10b1962976cbfd93fcd76e5d72012cb15a430925556013c6238f48febcf2"
+    },
+    {
+      "path": "ui/pirate_presentation.gd",
+      "bytes": 4320,
+      "sha256": "bac792d5b2181aadf0c102fcf9aec5739e09e1fc09707ee191f085ffd9389d49"
+    },
+    {
+      "path": "ui/pirate_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "be341775b36308a16d2e5b2f59b639c4d01e7f5b33e2c26f3dd0c3d5e68baad5"
+    },
+    {
+      "path": "ui/quilboar_presentation.gd",
+      "bytes": 5873,
+      "sha256": "3cd6ebbe06e43c1c13c7cd5f448ab3028126a79784656ff713a7054ec9bcf878"
+    },
+    {
+      "path": "ui/quilboar_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "429b4c88fb55d815e010ff41124064d5dac9af74686b7790f92a73d30cf8f345"
+    },
+    {
+      "path": "ui/round133_presentation.gd",
+      "bytes": 7662,
+      "sha256": "a985df8f7a52019737f9772999cfcb467564fcff93b00465af9c7cc346e8f2a9"
+    },
+    {
+      "path": "ui/round133_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "adddced6e0ea777f00a42a84797837947e86a7bb2f1e978967a4468975861bfb"
+    },
+    {
+      "path": "ui/round134_wheel.gd",
+      "bytes": 9500,
+      "sha256": "6b985552bdea344171a6d3c79a605d88c06ce7eb11706dd4d849846098148cd6"
+    },
+    {
+      "path": "ui/round134_wheel.gd.uid",
+      "bytes": 20,
+      "sha256": "fb29056ed781c548bf1ce825aad3fec83bf5d742b092e331b7c197c50c8b859a"
+    },
+    {
+      "path": "ui/round135_presentation.gd",
+      "bytes": 11229,
+      "sha256": "c25431ebe71c3ba0ea75ecc5a6fc5cfaa0b280204793199dd0b0d1e13745ccf3"
+    },
+    {
+      "path": "ui/round135_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "16757fc4efb123efad6a546ed11101b373838e2e0b8b7b05c3aef8d5b001d636"
+    },
+    {
+      "path": "ui/round136_presentation.gd",
+      "bytes": 7136,
+      "sha256": "ca6659ba84e61d5886f5a7857661537b7034262050d9ce7a6ebebafb43284479"
+    },
+    {
+      "path": "ui/round136_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "25a1589088e9ba5f07d765d2e34c6846123dcbe4d484f3babd83b0554cddee8a"
+    },
+    {
+      "path": "ui/round13_presentation.gd",
+      "bytes": 3663,
+      "sha256": "f23e2e2959251e5132d9c56a451a2917976c10f1575345d5da695887c5ad6d58"
+    },
+    {
+      "path": "ui/round13_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "24896b98e5de9c5d7e5a88bcdc399b75b6989f2d536164cc8ba2c51f1383a78c"
+    },
+    {
+      "path": "ui/round142_layout.gd",
+      "bytes": 1244,
+      "sha256": "4d3a4a1abd2b9b15cf61350d6327616177c186038ef9f413b53f2301c7e5a404"
+    },
+    {
+      "path": "ui/round142_layout.gd.uid",
+      "bytes": 20,
+      "sha256": "d6b1b6da56a31f38d9eb571eb71e454078ad93c9f2acac14965ea98b4af41f4e"
+    },
+    {
+      "path": "ui/round142_theme.gd",
+      "bytes": 1895,
+      "sha256": "26372e522c75a5910f10ad48bab36ba7469060308d56dd6a7f461eb8a85f205c"
+    },
+    {
+      "path": "ui/round142_theme.gd.uid",
+      "bytes": 20,
+      "sha256": "a31881820053d63ab512aaf4d6b87d69067e0bcbf1c85e28f645febb4e405b15"
+    },
+    {
+      "path": "ui/round143_opponents.gd",
+      "bytes": 2852,
+      "sha256": "79252be9067c148eb41dd9c19aa64d4c12e4ae6db0911d47c9164e7c7b9ecb24"
+    },
+    {
+      "path": "ui/round143_opponents.gd.uid",
+      "bytes": 20,
+      "sha256": "678a263e82e4ec465088953fbc91db22df5258e2ee6542abb4f3d8d49b6210b1"
+    },
+    {
+      "path": "ui/round143_portrait_mask.gdshader",
+      "bytes": 769,
+      "sha256": "c1fa5197b0e1130e9d287d3f353cc6f4a04d7c6ec04b584274abbb191e859e75"
+    },
+    {
+      "path": "ui/round143_portrait_mask.gdshader.uid",
+      "bytes": 20,
+      "sha256": "16777411d4e72da4ec04b7e3f349bb3cf4c0086fb63de506c38642a5526147bb"
+    },
+    {
+      "path": "ui/round143_skin.gd",
+      "bytes": 5430,
+      "sha256": "c7c309926e77387eeed289a3784c48829ac0284db5ca81802ff2942c3bf136b7"
+    },
+    {
+      "path": "ui/round143_skin.gd.uid",
+      "bytes": 20,
+      "sha256": "31bedcc5ab44f3bbfe2fa5d3b99f8ebf2bbb4739fd5edde08835eb6c0e66feda"
+    },
+    {
+      "path": "ui/spell_history_panel.gd",
+      "bytes": 10115,
+      "sha256": "585db9b8a55b08020bf1f44ce473ef2c430bf37f8b7454dd571e5841032dc400"
+    },
+    {
+      "path": "ui/spell_history_panel.gd.uid",
+      "bytes": 20,
+      "sha256": "9deafbff3b6d6dd4c77704a505992c1bd0916a6c682265e956aec9c388b94879"
+    },
+    {
+      "path": "ui/spell_presentation.gd",
+      "bytes": 4315,
+      "sha256": "85053ccf5220944d1462a5cdcbe89c8f1ead28eb714e04242b73ef141540fa94"
+    },
+    {
+      "path": "ui/spell_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "12c45bea08a5f9d5dc96ff8d577f41a4000a037964f33c989a80877761ab4fb6"
+    },
+    {
+      "path": "ui/tavern_card.gd",
+      "bytes": 18086,
+      "sha256": "09de2b5c2da72ab461de858e465f3050fded0aa5d0d4f3ad49486b646af63665"
+    },
+    {
+      "path": "ui/tavern_card.gd.uid",
+      "bytes": 19,
+      "sha256": "5e6e1d1a989dcf312b181e89b8086243d45cbd811db2e0c9ae4cd25578c70f44"
+    },
+    {
+      "path": "ui/tavern_screen.gd",
+      "bytes": 97567,
+      "sha256": "31fbdc832ea83e39e3b7ecbfac7682ffccbc24210b652368e7cdb46f1f8ecb26"
+    },
+    {
+      "path": "ui/tavern_screen.gd.uid",
+      "bytes": 19,
+      "sha256": "884b66b5df48e993b89a8c92224378db26d92f6ecfa9e344cbef2bd5ce7eab8b"
+    },
+    {
+      "path": "ui/tavern_table.gd",
+      "bytes": 78877,
+      "sha256": "0769f3d74b5d9efd2893cfa34560227fb910cf921be10a43a0979523018c1b81"
+    },
+    {
+      "path": "ui/tavern_table.gd.uid",
+      "bytes": 20,
+      "sha256": "64064909c4483a8f32f66d66398e53036019c4e5578064ccb705406db0dd9ed4"
+    },
+    {
+      "path": "ui/trinket_reminder.gd",
+      "bytes": 3934,
+      "sha256": "7afc36521cfbd54cd1bab97d2b3de95844630cad01f8ce105f09d8c62f6c60be"
+    },
+    {
+      "path": "ui/trinket_reminder.gd.uid",
+      "bytes": 19,
+      "sha256": "7b79b81fafbee1f1532acfc2f1b85340f11ab21bb09e87615a70acce7f9e07c7"
+    }
+  ],
+  "excludes": [
+    "assets/**",
+    ".godot/**",
+    "addons/**",
+    "local_resources/**",
+    "builds/**",
+    "deliverables/**"
+  ]
+}

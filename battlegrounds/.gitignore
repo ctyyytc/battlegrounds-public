@@ -1,0 +1,9 @@
+.godot/
+local_resources/
+builds/
+*.log
+.DS_Store
+
+addons/godot_ai/
+.godot_ai_local.json
+.godot_ai_update/
